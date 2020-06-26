@@ -40,6 +40,59 @@ That concludes this article, hopefully you learned some usefull tips for using g
  - https://github.com/StefanGerrits2/Lyvup-prototype/blob/master/GitRules.txt
  - https://www.sourcetreeapp.com/
 
+# PHP h8
+
+Originally I'm a game developer, but after going head-first into 6 months of web development I heard a similair phrase from my peers multiple times, PHP sucks. Having used it very little in my own development I was curious to find out what exactly people do and don't like about it.
+
+## Why is PHP so hated by many people?
+After looking for answers for this question I found several good ones, and a few not so good ones such as developer elitism.
+
+### Language design
+PHP has many quirks which developers used to languages such as Java and C++ find a little weird. Take this code for example:  
+$ arg = 'T';  
+$ vehicle = (($ arg == 'B')? 'bus':  
+($ arg == 'A')? 'airplane':  
+($ arg == 'T')? 'train':  
+($ arg == 'C')? 'car':  
+($ arg == 'H')? 'horse':  
+'feet');  
+echo $ vehicle;  
+
+One would expect this code to log train, but in PHP it logs horse. This is one of many examples which would make a developer make him pull his hair out. 
+Something similair is the case with the "==" operator. In PHP this comparison, 123 == "123foo", will give true. On the other hand this, "123" == "123foo", will give false. In the first operation it simply does a type conversion, so the string "123foo" becomes 123 and gives the result true, while most other languages give a false. For the second expression it simply compares the strings and return false. 
+
+### Inconsistencies 
+PHP has a lot of elements where you will just ask yourself, why?
+
+- Variable names are case-sensitive, but function names are case-insensitive.
+- The documentation is incomplete and sometimes even has slight faults in them.
+- Function names are inconsisten, sometimes with underscore sometimes with or sometimes completly different words.
+
+## Why is PHP still used by many people?
+Despite some people have legitimately good reasons to dislike PHP, it's still used by many companies, even big ones like Facebook. Why is that?
+
+## Speed
+Ever since PHP 7, memory usage and speed have gotten significantly better. In some cases it's gotten over a 100% faster over PHP 5, which was from 2012. A request that would take around 80 MB of ram in 2012 will be around 80 MB today.
+
+## Availability
+PHP can be added to almost any project, big or small. This allows a lot of people to start using it's features, which is also expanded by it's many different high quality libraries.
+With this availability also comes a huge community to help you if you ever get stuck. This is something which has kept a lot of people for a long time, and that does rectify a lot of problems with the documentation. 
+
+## Conclusion
+While it is true that PHP has its problems and shortcomings, all programming languages do. The trend seems to be that many younger developers aren't a fan of the language and might choose to develop in different environments. This might cause the language to really start faltering in 5-10 years, when these young developers start becoming more experienced. Since they haven't, so to say "grown up", with PHP it'll get used by fewer and fewer people.
+So does it deserve so much hate? Maybe. Should it still be respected as a big boy in the web development scene? Definitly!
+
+## Resources
+ - https://www.thoughtfulcode.com/why-use-php/
+ - https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/
+ - https://dev.to/2dsharp/php-sucks-can-it-suck-less-1mjb
+ - https://webonastick.com/php.html#poor-documentation
+ - https://johnmorrisonline.com/why-is-php-still-being-used-to-create-websites/
+ 
+
+
+
+
 # Weekly Nerd @cmda-minor-web · 2019-2020
 
 Elke week is er op woensdagmiddag de Weekly Nerd: 
