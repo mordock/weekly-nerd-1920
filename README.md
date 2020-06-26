@@ -89,64 +89,25 @@ So does it deserve so much hate? Maybe. Should it still be respected as a big bo
  - https://webonastick.com/php.html#poor-documentation
  - https://johnmorrisonline.com/why-is-php-still-being-used-to-create-websites/
  
+# Game development VS web development
+For the past 6 months I've tried my hand at web development after being a game developer for over 3.5 years. So I wanted to express my feelings, positive and negative towards these very different branches of the IT field. 
+
+## Positives
+### Libraries
+Do you need something specific? There's a library for that! It's been quite the breath of fresh air to have so much choice and after having installed node, its ease of use. If you can think of it there's a library for it, want to your client side website to update every time you save, live-server. Want to use web-sockets without having to type everything from scratch, socket.io. I could keep going for another hour, but it's amazing. 
+
+## Negatives
+### Javascript
+After having mostly used C#, Java and C++ for game development in engines such as Unity and Unreal, Javascript is well... It's a step in a different direction to say the least. 
+The biggest difference for me being that Javascript doesn't have explicit types. This has been a struggle for me for all of these 6 months. And after switching back to C# in my own type, I'm positive that I'm not a big fan of how Javascript does its types. With how it does its types, a lot of comparison operations often don't make sense to and it's really something I've had to relearn during these months.
+Having said that, I am happy that I do have the basis and some intermediate parts mastered.
+
+### Libraries
+Yes, here they are again. Especially when working in a team it's incredible how quickly a project can get impaired by the amount of libraries. Cause you'll have 5 libraries related to development, not including the 10 gulp extensions, all kinds of server applications and fancy client-side features. After a while it gets harder and harder to keep it all up-to-date or to add members to your team. Libraries are a real double edged sword. 
 
 
-
-
-# Weekly Nerd @cmda-minor-web · 2019-2020
-
-Elke week is er op woensdagmiddag de Weekly Nerd: 
-Workshops, praatjes en lezingen van bedrijven en designers over het vakgebied. Nerd alert.
-
-## Leerdoelen
-- Kennismaken met het beroepenveld
-- Orienteren op het vakgebied
-- Vakgerelateerde artikelen leren schrijven
-
-## Werkwijze
-Elke week wordt er een presentatie gegeven door iemand uit het vakgebied. 
-Dit proberen we zo veel mogelijk bij bedrijven te organiseren. 
-Zo krijg je een goed beeld van het vakgebied en krijg je contacten in het werkveld. 
-Dat kan handig zijn voor als je een afstudeerstage zoekt, of een afstudeeropdracht. 
-
-
-Van iedere presentatie maak je **sketch-notes / aantekeningen** die je op een blog verzamelt. 
-Schrijf ook altijd een link-lijstje met (interessante) onderwerpen die aan bod zijn gekomen.
-3 keer schrijf je een uitgebreid artikel over een relevant onderwerp. 
-Bijvoorbeeld een eigen onderzoek naar een techniek of een (technische) analyse van een website die in een Weekly Nerd is behandeld. 
-Zorg voor juiste verwijzingen, bronvermelding en goede leesbare teksten. 
-Engels wordt aangeraden.  
-
-Tip: Fork deze repo en publiceer je blog via GitHub Pages!
-
-
-## Criteria
-Er wordt van je verwacht dat je alle Weekly Nerds bijwoont. 
-Je mag niet meer dan 1 Weekly Nerd missen. 
-Als je meer dan 1 Weekly Nerd mist dan krijg je een vervangende opdracht.
-
-Je blog met de verslagen en artikelen moet voor de laatste week van de Meesterproef ingeleverd zijn.
-
-
-### Voorbeelden van voorgaande jaren
-
-* https://medium.com/@vincentkempers_/functional-light-programming-helped-me-a-lot-99856a9ac0ff
-* https://codepen.io/servinnissen/post/plan-then-code
-* https://github.com/Jamerrone/weekly-nerd-blog/blob/master/articles/article-3.md
-* https://github.com/muise001/Weekly_Nerd#bruce-lawson---w3c-over-webstandards
-* https://medium.com/@vincentkempers_/my-experience-at-nlhtml5-x-cssday-df855997a191
-
-
-## Programma
-
-### Workshops, praatjes en lezingen
-
-
-| Datum  |  Wat/Wie | Waar  | Link | 
-|---|---|---|---|
-| 13 Februari  | Hidde de Vries - Toegankelijkheid en CSS expert bij W3C  | BPH 01B11  |   |
-|   |   |   |   |   |
-
+## Resources
+ - https://nodejs.org/en/
 
 
 
