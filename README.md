@@ -90,16 +90,21 @@ So does it deserve so much hate? Maybe. Should it still be respected as a big bo
  - https://johnmorrisonline.com/why-is-php-still-being-used-to-create-websites/
  
 # Game development VS web development
-For the past 6 months I've tried my hand at web development after being a game developer for over 3.5 years. So I wanted to express my feelings, positive and negative towards these very different branches of the IT field. 
+For the past 6 months I've tried my hand at web development after being a game developer for over 3.5 years. So I wanted to express my feelings, positive and negative towards web development in comparison to game development. 
 
 ## Positives
 ### Libraries
 Do you need something specific? There's a library for that! It's been quite the breath of fresh air to have so much choice and after having installed node, its ease of use. If you can think of it there's a library for it, want to your client side website to update every time you save, live-server. Want to use web-sockets without having to type everything from scratch, socket.io. I could keep going for another hour, but it's amazing. 
 
+### Starting new projects
+While both game and web development can have a quick startup, web development definityly wins. It's very easy to have a basic layout of your website and some simple functionality. Even in the most simplistic and beginner friendly game engines it's a lot more work to setup the base of your game. 
+The fact that web development has such a strong startup, really help with the iterative process. 
+
 ## Negatives
 ### Javascript
 After having mostly used C#, Java and C++ for game development in engines such as Unity and Unreal, Javascript is well... It's a step in a different direction to say the least. 
-The biggest difference for me being that Javascript doesn't have explicit types. This has been a struggle for me for all of these 6 months. And after switching back to C# in my own type, I'm positive that I'm not a big fan of how Javascript does its types. With how it does its types, a lot of comparison operations often don't make sense to and it's really something I've had to relearn during these months.
+The biggest difference for me being that Javascript doesn't have explicit types. This has been a struggle for me for all of these 6 months. And after switching back to C# in my own time, I'm positive that I'm not a big fan of how Javascript does its types. With how it does its types, a lot of comparison operations often don't 
+make sense to and it's really something I've had to relearn during these months.
 Having said that, I am happy that I do have the basis and some intermediate parts mastered.
 
 ### Libraries
