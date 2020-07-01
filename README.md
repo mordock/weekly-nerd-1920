@@ -1,6 +1,5 @@
 # Article 1, Tips for git and web development
 
-
 ## 1. Use a visual git environment
 Most web developers I know have used git at one point or another, but most still use the command line. This has always left me to scratch my head, while the command line is certainly usable, it's a lot of extra work. You have to remember all the different commands, and you have to type it out yourself, which is prone to errors. 
 This is why I recommend a GUI client, the most popular tools currently are, SourceTree, Gitkraken and Github Desktop. All of these work for both windows and MAC.
@@ -41,7 +40,7 @@ That concludes this article, hopefully you learned some usefull tips for using g
  - https://github.com/StefanGerrits2/Lyvup-prototype/blob/master/GitRules.txt
  - https://www.sourcetreeapp.com/
 
-# PHP h8
+# Article 2, PHP h8
 
 Originally I'm a game developer, but after going head-first into 6 months of web development, I heard a similair phrase from my peers multiple times, PHP sucks. Having used it very little in my own development I was curious to find out what exactly people do and don't like about it.
 
@@ -90,7 +89,7 @@ So does it deserve so much hate? Maybe. Should it still be respected as a big bo
  - https://webonastick.com/php.html#poor-documentation
  - https://johnmorrisonline.com/why-is-php-still-being-used-to-create-websites/
  
-# Game development VS web development
+# Article 3, Game development VS web development
 For the past 6 months I've tried my hand at web development after being a game developer for over 3.5 years. So I wanted to express my feelings, positive and negative towards web development in comparison to game development. 
 
 ## Positives
