@@ -58,7 +58,7 @@ $ vehicle = (($ arg == 'B')? 'bus':
 'feet');  
 echo $ vehicle;  
 
-One would expect this code to log train, but in PHP it logs horse. This is one of many examples which would make a developer make him pull his hair out. 
+One would expect this code to log train, but in PHP it logs horse. This is one of many examples which would make a developer pull his hair out. 
 Something similair is the case with the "==" operator. In PHP this comparison, 123 == "123foo", will give true. On the other hand this, "123" == "123foo", will give false. In the first operation it simply does a type conversion, so the string "123foo" becomes 123 and gives the result true, while most other languages give a false. For the second expression it simply compares the strings and returns false. 
 
 ### Inconsistencies 
